@@ -9,8 +9,8 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.servlet.ModelAndView;
 
+import com.cisco.beans.Profile;
 import com.cisco.dao.ProfileDao;
-import com.cisco.model.Profile;
 
 @Controller
 @RequestMapping("/webapi")

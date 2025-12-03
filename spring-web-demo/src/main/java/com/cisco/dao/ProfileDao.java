@@ -6,7 +6,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.jdbc.core.JdbcTemplate;
 import org.springframework.stereotype.Repository;
 
-import com.cisco.model.Profile;
+import com.cisco.beans.Profile;
 
 @Repository
 public class ProfileDao {
